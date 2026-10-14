@@ -82,8 +82,8 @@ disimpan di **Volume** supaya tidak hilang saat deploy ulang.
    | Variabel | Isi |
    |---|---|
    | `NODE_ENV` | `production` |
-   | `ADMIN_EMAIL` | email login admin |
-   | `ADMIN_PASSWORD` | minimal 12 karakter |
+   | `ADMIN_EMAIL` | doodle4575@gmail.com |
+   | `ADMIN_PASSWORD` | rimbacamp |
    | `SESSION_SECRET` | hasil `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"` |
    | `IDENTITY_ENCRYPTION_KEY` | hasil `node -e "console.log(require('crypto').randomBytes(32).toString('base64'))"` (simpan baik-baik; hilang = nomor identitas tak bisa dibuka) |
    | `BANK_NAME`, `BANK_ACCOUNT_NUMBER`, `BANK_ACCOUNT_HOLDER` | rekening toko (data awal) |
